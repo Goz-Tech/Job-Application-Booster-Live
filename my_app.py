@@ -35,7 +35,6 @@ if uploaded_file:
     except Exception as e:
         st.error(f"Error extracting text: {e}")
 
-
 resume = st.text_area("📄 Paste your Resume here", height=250, help="copy and paste your resume.")
 
 # JD
